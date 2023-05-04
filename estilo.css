@@ -1,0 +1,98 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    border: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+h1{
+    margin-top: 20px;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    width: 70vw;
+    gap: 20px;
+}
+
+.digite{
+    display: flex;
+    width: 100%;
+    height: 10vh;
+}
+
+#digite_tarefa{
+    border: 1px solid black;
+    padding: 10px;
+    width: 100%;
+    font-size: 1.5em;
+    text-indent: 100px;
+}
+
+#btn_adicionar{
+    width: 150px;
+    border-radius: 0 10px 10px 0;
+    background-color: rgb(0, 160, 0);
+}
+
+.lista{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.container_item{
+    display: flex;
+    justify-content: space-around;
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.5);
+    border-radius: 0 10px 10px 0;
+
+    align-items: center;
+}
+
+.item{
+    width: 100%;
+    font-size: 1em;
+    text-indent: 100px;
+    font-weight: bold;
+}
+
+.btn{
+    padding: 20px;
+    width: 150px;
+    background-color: rgb(255, 55, 55);
+    border-radius: 0 10px 10px 0;
+}
+
+.radio{
+    padding: 8px;
+    border: 1px solid black;
+    border-radius: 50%;
+    position: relative;
+    left: 15px;
+}
+
+.riscado{
+    text-decoration: line-through;
+}
+
+.check{
+    background-color: rgb(0, 160, 0);
+}
+
+.item_selecionado{
+    color: gray;
+    background-color: rgba(0, 204, 0, 0.3);
+    position: relative;
+}
